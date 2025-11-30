@@ -164,7 +164,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
           </p>
           <Button 
             variant="ghost" 
-            size="lg"
+            size="lg" className="bg-white text-ocean-600 hover:bg-gray-100"
             onClick={() => onNavigate('register')}
           >
             Proposer mon bateau
