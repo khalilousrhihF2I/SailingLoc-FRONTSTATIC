@@ -20,7 +20,7 @@ VITE_APP_MODE=development
 VITE_ENABLE_LOGGING=true
 ```
 
-Si vous avez besoin de modifier ces valeurs, vous pouvez créer un fichier `.env.local` qui écrasera les valeurs du `.env`.
+Dans le besoin de modifier ces valeurs, on peut créer un fichier `.env.local` qui écrasera les valeurs du `.env`.
 
 3. **Lancer l'application en mode développement**
 ```bash
@@ -63,7 +63,7 @@ export const apiConfig: ApiConfiguration = {
 };
 ```
 
-Vous pouvez activer l'API service par service au fur et à mesure du développement du backend.
+On peut activer l'API service par service au fur et à mesure du développement du backend. ( Disponible dans la V2 ) en cours de dev
 
 ## 📁 Structure du projet
 
@@ -109,7 +109,7 @@ L'application utilise une palette nautique :
 
 ## 🚢 API .NET 8
 
-Pour connecter l'application à l'API .NET 8 :
+l'application se connectera dans la v2 à une API .NET 8 : ( Disponible dans la V2 ) 
 
 1. Assurez-vous que l'API est lancée (généralement sur `http://localhost:5000`)
 2. Vérifiez l'URL dans `.env` : `VITE_API_BASE_URL=http://localhost:5000/api`
@@ -118,4 +118,4 @@ Pour connecter l'application à l'API .NET 8 :
 
 ## 📝 Licence
 
-Propriétaire - SailingLoc
+Propriétaire - SailingLoc By KhalilOusrhir
